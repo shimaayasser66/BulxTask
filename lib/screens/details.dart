@@ -29,9 +29,9 @@ class _DetailsState extends State<Details> {
     super.initState();
     _product = widget.product;
 
-    selectedSize = "";
+    selectedSize = null;
 
-    selectedColor = "";
+    selectedColor = null;
 
     print(widget.product.price);
 
